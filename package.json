@@ -1,0 +1,35 @@
+{
+  "name": "inferencefi-brand",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Brand kit, design system and marketing-site design for Inference Finance (working name). Design preview only.",
+  "license": "MIT",
+  "author": "HuKiFl1",
+  "type": "module",
+  "workspaces": [
+    "shared",
+    "site",
+    "app-screens"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev:site": "npm run dev -w site",
+    "dev:screens": "npm run dev -w app-screens",
+    "build": "npm run tokens && npm run logo && npm run build -w site && npm run build -w app-screens",
+    "tokens": "node scripts/build-tokens.mjs",
+    "logo": "node scripts/build-logo.mjs",
+    "check:arc-pro": "node scripts/check-arc-pro.mjs",
+    "check:contrast": "node scripts/check-contrast.mjs",
+    "check:personal-data": "node scripts/check-personal-data.mjs",
+    "check:runtime": "node scripts/check-runtime.mjs",
+    "check": "npm run check:arc-pro && npm run check:contrast && npm run check:personal-data",
+    "test": "npm run build && node --test \"tests/*.test.mjs\"",
+    "screenshots": "node scripts/screenshots.mjs",
+    "export": "bash scripts/export.sh"
+  },
+  "devDependencies": {
+    "playwright": "1.65.1"
+  }
+}

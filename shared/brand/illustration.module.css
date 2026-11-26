@@ -1,0 +1,20 @@
+.illustration {
+  display: block;
+  line-height: 0;
+}
+
+.illustration :global(svg) {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.glyph {
+  width: 2rem;
+  height: 2rem;
+  flex: none;
+}
+
+.full {
+  width: 100%;
+}

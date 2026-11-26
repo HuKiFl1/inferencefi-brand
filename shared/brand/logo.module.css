@@ -1,0 +1,39 @@
+.logo {
+  display: block;
+  flex: none;
+}
+
+.tile {
+  fill: var(--brand-mark-tile);
+}
+
+.axes {
+  fill: none;
+  stroke: var(--brand-mark-curve);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: .55;
+}
+
+.curve {
+  fill: none;
+  stroke: var(--brand-mark-curve);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.dot {
+  fill: var(--brand-ember);
+  stroke: var(--brand-mark-curve);
+}
+
+.ink {
+  fill: none;
+  stroke: var(--foreground);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.letterDot {
+  fill: var(--brand-ember);
+}

@@ -1,0 +1,433 @@
+.notice {
+  border-bottom: 1px solid var(--border-subtle);
+  background: var(--surface);
+}
+
+.noticeInner {
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  gap: var(--space-4);
+  margin: 0 auto;
+  padding: var(--space-3) var(--space-10);
+}
+
+.noticeAlert {
+  flex: 1;
+  min-width: 0;
+}
+
+.main {
+  container-type: inline-size;
+}
+
+.section {
+  display: grid;
+  max-width: 1200px;
+  gap: var(--space-10);
+  margin: 0 auto;
+  padding: calc(var(--space-24) + var(--space-8)) var(--space-10) 0;
+  scroll-margin-top: var(--space-24);
+}
+
+.sectionHeading {
+  display: grid;
+  max-width: 720px;
+  gap: var(--space-3);
+}
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: var(--text-5xl);
+  font-weight: 500;
+  letter-spacing: var(--tracking-display);
+  line-height: var(--leading-display);
+  text-wrap: balance;
+}
+
+.sectionDescription {
+  color: var(--text-secondary);
+  font-size: var(--text-lg);
+  text-wrap: pretty;
+}
+
+/* Hero media: the OMER unit */
+.omer {
+  display: grid;
+  gap: var(--space-6);
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-surface);
+  padding: var(--space-8);
+  background: var(--surface);
+}
+
+.equation {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.equationHead {
+  font-family: var(--font-display);
+  font-size: var(--text-6xl);
+  font-weight: 500;
+  letter-spacing: var(--tracking-display);
+  line-height: var(--leading-display);
+  font-variant-numeric: tabular-nums;
+}
+
+.equationTail {
+  color: var(--text-secondary);
+  font-size: var(--text-xl);
+  text-wrap: balance;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-5);
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+}
+
+.legendItem {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.legendNote {
+  color: var(--text-muted);
+}
+
+.swatchInput,
+.swatchOutput {
+  width: .75rem;
+  height: .75rem;
+  border-radius: .1875rem;
+}
+
+.swatchInput {
+  background: var(--accent);
+}
+
+.swatchOutput {
+  background: var(--brand-ember);
+}
+
+/* How it works */
+.steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.step {
+  display: grid;
+  align-content: start;
+  gap: var(--space-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-surface);
+  padding: var(--space-8);
+  background: var(--surface);
+}
+
+.stepHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-3);
+}
+
+.stepIndex {
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+  font-variant-numeric: tabular-nums;
+}
+
+.stepTitle {
+  font-size: var(--text-lg);
+  font-weight: 500;
+}
+
+.stepBody {
+  color: var(--text-secondary);
+  text-wrap: pretty;
+}
+
+.fee {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: var(--space-4) var(--space-10);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-surface);
+  padding: var(--space-8);
+  background: var(--surface);
+}
+
+.feeIntro {
+  display: grid;
+  align-content: start;
+  gap: var(--space-2);
+}
+
+.feeRules {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+  margin: 0;
+}
+
+.feeRule {
+  display: grid;
+  gap: var(--space-2);
+  padding: var(--space-4) 0;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.feeRule dt {
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+}
+
+.feeRule dd {
+  margin: 0;
+  font-size: var(--text-lg);
+}
+
+.feeRule code {
+  font-family: var(--font-mono);
+}
+
+.feeNote {
+  grid-column: 2;
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+}
+
+/* Honest gaps */
+.gaps {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-surface);
+  padding: 0;
+  background: var(--surface);
+  list-style: none;
+  overflow: hidden;
+}
+
+.gap {
+  display: grid;
+  align-content: start;
+  justify-items: start;
+  gap: var(--space-3);
+  padding: var(--space-8);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.gap:nth-child(odd) {
+  border-right: 1px solid var(--border-subtle);
+}
+
+.gap:nth-last-child(-n + 2) {
+  border-bottom: 0;
+}
+
+/* Agents */
+.agents {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  gap: var(--space-10);
+  align-items: start;
+}
+
+.points {
+  display: grid;
+  gap: var(--space-8);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.points li {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.code {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-3);
+  min-width: 0;
+}
+
+.code > * {
+  min-width: 0;
+}
+
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-10);
+}
+
+.codeNote {
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+}
+
+/* Fair launch */
+.launch {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  gap: var(--space-10);
+  align-items: start;
+}
+
+.launchRules {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.rule {
+  display: grid;
+  gap: var(--space-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-surface);
+  padding: var(--space-8);
+  background: var(--surface);
+}
+
+.ruleTitle {
+  font-family: var(--font-display);
+  font-size: var(--text-3xl);
+  font-weight: 500;
+  letter-spacing: var(--tracking-display);
+  line-height: var(--leading-display);
+}
+
+.streams {
+  display: grid;
+  gap: var(--space-6);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-surface);
+  padding: var(--space-8);
+  background: var(--surface);
+}
+
+.streamsArt {
+  max-width: 420px;
+}
+
+.streamList {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  color: var(--text-secondary);
+  list-style: none;
+}
+
+.stream {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+}
+
+.streamTitle {
+  color: var(--foreground);
+  font-weight: 500;
+}
+
+.streamDot {
+  width: .625rem;
+  height: .625rem;
+  flex: none;
+  border-radius: var(--radius-pill);
+  transform: translateY(-.0625rem);
+}
+
+.stream[data-stream="spend"] .streamDot { background: var(--series-1); }
+.stream[data-stream="lp"] .streamDot { background: var(--series-2); }
+.stream[data-stream="fees"] .streamDot { background: var(--series-3); }
+.stream[data-stream="tbd"] .streamDot { border: 2px dashed var(--text-muted); }
+
+/* Repositories */
+.repos {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-4);
+  margin: 0;
+  padding: 0 0 calc(var(--space-24) + var(--space-8));
+  list-style: none;
+}
+
+.repo {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: var(--space-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-surface);
+  padding: var(--space-8);
+  background: var(--surface);
+}
+
+.repoTitle {
+  font-family: var(--font-mono);
+  font-size: var(--text-base);
+  font-weight: 500;
+  overflow-wrap: anywhere;
+}
+
+.repoLink {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: var(--space-1);
+  justify-self: start;
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.repoLink:hover {
+  text-decoration: underline;
+}
+
+@container (max-width: 1024px) {
+  .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .fee { grid-template-columns: minmax(0, 1fr); }
+  .feeNote { grid-column: 1; }
+  .agents,
+  .launch { grid-template-columns: minmax(0, 1fr); }
+}
+
+@container (max-width: 720px) {
+  .section { padding: var(--space-24) var(--space-4) 0; }
+  .sectionTitle { font-size: var(--text-4xl); }
+  .steps,
+  .gaps,
+  .repos,
+  .feeRules { grid-template-columns: minmax(0, 1fr); }
+  .gap:nth-child(odd) { border-right: 0; }
+  .gap:nth-last-child(2) { border-bottom: 1px solid var(--border-subtle); }
+  .equationHead { font-size: var(--text-5xl); }
+  .omer,
+  .step,
+  .fee,
+  .rule,
+  .streams,
+  .repo,
+  .gap { padding: var(--space-6); }
+}
+
+@media (max-width: 720px) {
+  .footer { padding: 0 var(--space-4); }
+  .noticeInner { padding: var(--space-3) var(--space-4); align-items: flex-start; }
+}

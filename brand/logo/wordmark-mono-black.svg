@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -8 1168 116" width="1168" height="116" role="img" aria-labelledby="t">
+  <title id="t">Inference Finance wordmark, mono, black</title>
+  <g fill="none" stroke="#0B1418" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(6 0)"><path d="M0 0V100"/></g>
+    <g transform="translate(32 0)"><path d="M0 28V100"/><path d="M0 58A29 30 0 0 1 58 58V100"/></g>
+    <g transform="translate(116 0)"><path d="M10 100V22C10 8 18 0 32 0H38"/><path d="M0 28H34"/></g>
+    <g transform="translate(172 0)"><path d="M0 64H64A32 36 0 1 0 54.63 89.46"/></g>
+    <g transform="translate(258 0)"><path d="M0 28V100"/><path d="M0 60C0 40 12 28 32 28"/></g>
+    <g transform="translate(310 0)"><path d="M0 64H64A32 36 0 1 0 54.63 89.46"/></g>
+    <g transform="translate(396 0)"><path d="M0 28V100"/><path d="M0 58A29 30 0 0 1 58 58V100"/></g>
+    <g transform="translate(476 0)"><path d="M54.63 38.54A32 36 0 1 0 54.63 89.46"/></g>
+    <g transform="translate(551 0)"><path d="M0 64H64A32 36 0 1 0 54.63 89.46"/></g>
+    <g transform="translate(681 0)"><path d="M44 0H0V100"/><path d="M0 48H36"/></g>
+    <g transform="translate(751 0)"><path d="M0 28V100"/></g>
+    <g transform="translate(777 0)"><path d="M0 28V100"/><path d="M0 58A29 30 0 0 1 58 58V100"/></g>
+    <g transform="translate(857 0)"><path d="M60 28V100"/><path d="M60 64A30 36 0 1 0 0 64A30 36 0 1 0 60 64"/></g>
+    <g transform="translate(943 0)"><path d="M0 28V100"/><path d="M0 58A29 30 0 0 1 58 58V100"/></g>
+    <g transform="translate(1023 0)"><path d="M54.63 38.54A32 36 0 1 0 54.63 89.46"/></g>
+    <g transform="translate(1098 0)"><path d="M0 64H64A32 36 0 1 0 54.63 89.46"/></g>
+  </g>
+  <circle cx="751" cy="5" r="7.5" fill="#0B1418"/>
+</svg>

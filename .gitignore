@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.local
+.env
+.env.*
+*.log
+.DS_Store
+test-results/
+playwright-report/
+.shot.mjs
+.slices.mjs
+*.tsbuildinfo
+brand-export.tar.gz
+brand-export.sha256

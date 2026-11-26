@@ -1,0 +1,19 @@
+{
+  "name": "@inferencefi/shared",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "dependencies": {
+    "@radix-ui/react-select": "^2.4.1",
+    "@radix-ui/react-tabs": "^1.2.1",
+    "@radix-ui/react-tooltip": "^1.4.1",
+    "lucide-react": "^1.80.0",
+    "motion": "^14.14.0"
+  },
+  "description": "Vendored Arc UI free components (MIT, uiarc.dev) and shared brand React pieces.",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

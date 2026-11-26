@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 168" width="400" height="168" role="img" aria-labelledby="omer-unit-title omer-unit-desc">
+  <title id="omer-unit-title">One OMER</title>
+  <desc id="omer-unit-desc">Forty cells of 25k tokens each. Thirty cells are input tokens and ten are output tokens: 750k input plus 250k output tokens of a tier's reference model.</desc>
+  <defs>
+    <pattern id="omer-input-cell" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect x="4" y="4" width="32" height="32" rx="7" style="fill:var(--accent,#006A80)"/>
+    </pattern>
+    <pattern id="omer-output-cell" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect x="4" y="4" width="32" height="32" rx="7" style="fill:var(--brand-ember,#C2410C)"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="400" height="120" style="fill:url(#omer-input-cell)"/>
+  <g transform="translate(0 128)">
+    <rect x="0" y="0" width="400" height="40" style="fill:url(#omer-output-cell)"/>
+  </g>
+</svg>
