@@ -72,10 +72,15 @@ app-screens/           read-only Swap, Pools, Liquidity and Dashboard screens wi
 shared/                vendored Arc free components, brand React pieces, shared Vite config
 content/
   LAUNCH_DRAFTS.md     DRAFT site copy, five X posts, a thread and an announcement. Not to be posted.
+docs/
+  HANDOFF.md           IF-M2 design contract for 0xMelchizedek (inventory, tokens, screens, SDK fields)
+  IF-D1-D2-BRIEF.md    Naming and visual-brand proposal (IF-D1, IF-D2)
 design/                PNG screenshots, light and dark
 scripts/               token, logo, check, screenshot and export scripts
 tests/                 node:test suites
 ```
+
+The IF-M2 handoff for 0xMelchizedek is [docs/HANDOFF.md](docs/HANDOFF.md). The IF-D1 and IF-D2 naming and visual-brand proposal is [docs/IF-D1-D2-BRIEF.md](docs/IF-D1-D2-BRIEF.md).
 
 ### Screenshots
 

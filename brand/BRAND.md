@@ -26,6 +26,9 @@ These are proposals for review, not decisions. None has had a trademark, domain 
 
 Recommendation: keep "Inference Finance" for the testnet rehearsal and decide IF-D1 before any public launch. The logo system works with any of the four names, because the mark carries no letters.
 
+A one-page decision brief is in [docs/IF-D1-D2-BRIEF.md](../docs/IF-D1-D2-BRIEF.md). It recommends keeping Inference Finance for the testnet rehearsal, keeps Creditcurve and Workrate as alternatives, and recommends against Omerswap.
+
+
 ## Positioning
 
 **For** agents that buy inference, and the people who run them.
